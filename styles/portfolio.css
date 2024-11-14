@@ -139,6 +139,11 @@ nav li a{
                                     text-align: center;
                                     
 }
+.spot-title{
+                                    font-size: 40px;
+                                    font-weight: 800;
+                                    margin-top: 90px;
+}
 
 
 .first-photo-container{
@@ -161,6 +166,48 @@ nav li a{
                                     margin: 30px 150px;
                                     justify-content: center;
 }
+.card-container{
+                                    display: flex;
+                                    gap: 50px;
+                                    justify-content: center;
+                                    margin-top: 50px;
+                                    
+}
+.card-1{
+                                    background-color: #fbb46342;
+                                    padding: 40px;
+                                    height: 180px;
+                                    width: 500px;
+                                    border-radius: 10px;
+}
+.card-2{
+                                    background-color: #29cdf630;
+                                    padding: 40px;
+                                    height: 180px;
+                                    width: 470px;
+                                    border-radius: 10px;
+}
+.card-3{
+                                    background-color: #fbb46342;
+                                   position: relative;
+                                    left: 560px;
+                                    height: 180px;
+                                    width: 500px;
+                                    margin-top: 40px;
+                                    padding: 40px;
+                                    border-radius: 10px;
+                                    
+                                    
+                                    
+                                    
+
+}
+.perfect-place{
+                                    display: flex;
+                                    margin: 105px;
+                                    gap: 40px;
+}
+
 
 
 
@@ -193,6 +240,7 @@ nav li a{
           }
           .container{
                                     height: 600px;
+                                    width: 100%;
                                     margin: 0 ;
                                     border-radius: 10px;
                                    
@@ -203,7 +251,7 @@ nav li a{
                                     margin: 0;
           }
           .main-para{
-                                    width: 450px;
+                                    width: 400px;
           }
           .mountain{
                                     width: 100%;
@@ -212,7 +260,7 @@ nav li a{
           .first-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 500px;
+                                    width: 400px;
                                     margin-left: 10px;
 
                                     
@@ -220,14 +268,44 @@ nav li a{
           .second-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 500px;
+                                    width: 400px;
                                     margin-left: 10px;
           }
           .third-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 500px;
+                                    width: 400px;
                                     margin-left: 10px;
+          }
+          .card-container{
+                                    display: block;
+                                    
+          }
+          .card-1{
+                                    width: 300px;
+                                    height: 250px;
+                                    padding-top: 80px;
+                                    margin-left: 20px;
+                                    margin-bottom: 20px;
+          }
+          .card-2{
+                                    width: 300px;
+                                    height: 250px;
+                                    padding-top: 80px;
+                                    margin-left: 20px;
+                                    margin-bottom: 20px;
+          }
+          .card-3{
+                                    position: static;
+                                    width: 300px;
+                                    height: 250px;
+                                    padding-top: 80px;
+                                    margin-left: 20px;
+                                    margin-top: 0px;
+          }
+          .perfect-place{
+                                    display: block;
+                                    margin: 0;
           }
           
            
