@@ -113,8 +113,13 @@ nav li a{
 }
 .main{
                                     display: flex;
-                                    justify-content: space-between;
-                                    margin: 50px 150px;
+                                    /* justify-content: space-between; */
+                                    margin: 50px;
+                                    gap: 80px;
+                                    justify-content: center;
+}
+.main-para{
+                                    width: 577px;
 }
 .main-title{
                                     font-size: 40px;
@@ -126,8 +131,36 @@ nav li a{
 .tour{
                                     margin: 20px;
 }
+.mountain{
+                                    width: 500px;
+}
+
+.spot{
+                                    text-align: center;
+                                    
+}
 
 
+.first-photo-container{
+                                    display: flex;
+                                    gap: 30px;
+                                    margin: 30px 150px;
+                                    justify-content: center;
+                                    
+}
+                                    
+.second-photo-container{
+                                    display: flex;
+                                    gap: 27px;
+                                    margin: 30px 150px;
+                                    justify-content: center;
+}
+.third-photo-container{
+                                    display: flex;
+                                    gap: 30px;
+                                    margin: 30px 150px;
+                                    justify-content: center;
+}
 
 
 
@@ -164,6 +197,37 @@ nav li a{
                                     border-radius: 10px;
                                    
                                     
+          }
+          .main{
+                                    display: block;
+                                    margin: 0;
+          }
+          .main-para{
+                                    width: 450px;
+          }
+          .mountain{
+                                    width: 100%;
+                                    margin-top: 30px;
+          }
+          .first-photo-container{
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 500px;
+                                    margin-left: 10px;
+
+                                    
+          }
+          .second-photo-container{
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 500px;
+                                    margin-left: 10px;
+          }
+          .third-photo-container{
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 500px;
+                                    margin-left: 10px;
           }
           
            
