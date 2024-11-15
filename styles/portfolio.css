@@ -388,22 +388,25 @@ footer{
                                     display: block;
           }
           .newsletter-container{
-                                    width: 320px;
+                                    width: 290px;
                                     height: 300px;
                                     margin-top: 20px;
                                     margin-bottom: 10px;
           }
           .newsletter-detail{
-                                    width: 300px;
+                                    width: 270px;
           }
           .newsletter-btn{
-                                    width: 290px;
+                                    width: 250px;
                                     
           }
           .img-news{
-                                    width: 420px;
+                                    width: 400px;
                                     height: 400px;
                                     margin-bottom: 0px;
+          }
+          .newsletter-dis{
+                                    left: 160px;
           }
           
            
