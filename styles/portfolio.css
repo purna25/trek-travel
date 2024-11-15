@@ -187,25 +187,91 @@ nav li a{
                                     width: 470px;
                                     border-radius: 10px;
 }
-.card-3{
-                                    background-color: #fbb46342;
-                                   position: relative;
-                                    left: 560px;
-                                    height: 180px;
-                                    width: 500px;
-                                    margin-top: 40px;
-                                    padding: 40px;
+
+.perfect-place{
+                                    display: flex;
+                                    justify-content: center;
+                                    margin: 105px;
+                                    gap: 40px;
+}
+.newsletter{
+                                    display: flex;
+                                    justify-content: center;
+                                    gap: 80px;
+}
+.newsletter-container{
+                                    width: 350px;
+                                    border: 1px solid #FF5400;
+                                    height: 400px;
+                                    padding: 50px;
                                     border-radius: 10px;
                                     
+}
+.newsletter-detail{
+                                    width: 330px;
+                                    margin:  10px;
+                                    height: 40px;
+                                    border-radius: 10px;
+                                    font-size: 16px;
+                                    color: #13131848;
+                                    padding-left:10px ;
+}
+.newsletter-btn{
+                                    width: 330px;
+                                    height: 40px;
+                                    border-radius: 10px;
+                                    text-align: center;
+                                    background-color: #FF5400;
+                                    color: #FFFFFF;
+                                    font-size: 20px;
+                                    font-weight: 800;
+}
+.img-news{
+                                    height: 500px;
+                                    width: 710px;
+}
+.newsletter-dis{
+                                    background-color: #FF5400;
+                                    width: 200px;
+                                    padding-top: 10px;
+                                    padding-left: 20px;
+                                    padding-bottom: 30px;
+                                    height: 100px;
+                                    border-radius: 10px;
+                                    color: #FFFFFF;
+                                    transform: rotate(-25deg);
+                                    position: relative;
+                                    left: 500px;
+                                    bottom: 150px;
+}
+
+footer{
+                                    background-color: #13131816;
+                                    margin:30px 110px;
+                                    height: 300px;
+                                    padding-top: 50px;
                                     
+}
+.footer-head{
+                                    display: flex;
+                                    justify-content: center;
                                     
+}
+.footer-body{
+                                    text-align: center;
+}
+.footer-end{
+                                    display: flex;
+                                    justify-content: center;
+}
+.hori{
+                                    width: 800px;
+                                    border: 1px solid #13131816;
                                     
 
 }
-.perfect-place{
-                                    display: flex;
-                                    margin: 105px;
-                                    gap: 40px;
+.footer-close{
+                                    text-align: center;
 }
 
 
@@ -234,7 +300,7 @@ nav li a{
                                    flex-direction: column;
                                    margin: 0 30px;
                                   display: grid;
-                                  height: 350px;
+                                  height: 300px;
                                   
 
           }
@@ -260,22 +326,22 @@ nav li a{
           .first-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 400px;
-                                    margin-left: 10px;
+                                    width: 390px;
+                                    margin-left: 2px;
 
                                     
           }
           .second-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 400px;
-                                    margin-left: 10px;
+                                    width: 390px;
+                                    margin-left: 2px;
           }
           .third-photo-container{
                                     display: flex;
                                     flex-direction: column;
-                                    width: 400px;
-                                    margin-left: 10px;
+                                    width: 390px;
+                                    margin-left: 2px;
           }
           .card-container{
                                     display: block;
@@ -285,14 +351,14 @@ nav li a{
                                     width: 300px;
                                     height: 250px;
                                     padding-top: 80px;
-                                    margin-left: 20px;
+                                    margin-left: 10px;
                                     margin-bottom: 20px;
           }
           .card-2{
                                     width: 300px;
                                     height: 250px;
                                     padding-top: 80px;
-                                    margin-left: 20px;
+                                    margin-left: 10px;
                                     margin-bottom: 20px;
           }
           .card-3{
@@ -300,12 +366,44 @@ nav li a{
                                     width: 300px;
                                     height: 250px;
                                     padding-top: 80px;
-                                    margin-left: 20px;
+                                    margin-left: 10px;
                                     margin-top: 0px;
           }
           .perfect-place{
                                     display: block;
                                     margin: 0;
+          }
+          footer{
+                                    width: 400px;
+                                    margin-left: 0px;
+                                    height: 300px;
+                                    margin-bottom: 30px;
+                                    margin-top: 5px;
+                                    
+          }
+          .hori{
+                                    width: 400px;
+          }
+          .newsletter{
+                                    display: block;
+          }
+          .newsletter-container{
+                                    width: 320px;
+                                    height: 300px;
+                                    margin-top: 20px;
+                                    margin-bottom: 10px;
+          }
+          .newsletter-detail{
+                                    width: 300px;
+          }
+          .newsletter-btn{
+                                    width: 290px;
+                                    
+          }
+          .img-news{
+                                    width: 420px;
+                                    height: 400px;
+                                    margin-bottom: 0px;
           }
           
            
